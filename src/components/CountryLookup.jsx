@@ -17,7 +17,7 @@ export default function CountryLookup() {
             setCountry(response)
         }
         getCountry()
-    }, [])
+    })
     return (
         <div>
             {country}
